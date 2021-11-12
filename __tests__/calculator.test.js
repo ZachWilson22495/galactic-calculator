@@ -17,11 +17,11 @@ describe ('calculate', () => {
     expect(mercuryAge).toEqual(107);
   });
 
-  test ('should calculate my age on Mercury', () => {
+  test ('should calculate my age on Mercury, Venus, Mars, and Jupiter simultaneously', () => {
     expect(mercuryAge).toEqual(107);
     expect(venusAge).toEqual(42);
     expect(marsAge).toEqual(13);
-    expect(jupiterAge).toEqual(6);
+    expect(jupiterAge).toEqual(2);
   });
 
 });
