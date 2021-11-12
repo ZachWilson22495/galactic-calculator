@@ -27,14 +27,20 @@ describe ('calculate', () => {
 });
 
 describe ('expectency', () => {
+  let age = 26
   let sex = 'male';
   let continent = 'northAmerica';
   let deadline = 0;
   if (sex === 'male' && continent === 'northAmerica') {
     deadline = 77
   };
+  let remaining = deadline -= age;
 
   test ('should list deadline as 77', () => {
     expect(deadline).toEqual(77);
+  });
+
+  test ('should list remaining as 51', () => {
+    expect(remaining).toEqual(53);
   });
 });
