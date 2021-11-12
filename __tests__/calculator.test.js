@@ -24,12 +24,13 @@ describe ('calculate', () => {
     expect(marsAge).toEqual(13);
     expect(jupiterAge).toEqual(2);
   });
+});
 
-describe ('calculate', () => {
-  let sex = male;
-  let continent = northAmerica;
+describe ('expectency', () => {
+  let sex = 'male';
+  let continent = 'northAmerica';
   let deadline = 0;
-  if (sex === male && continent === northAmerica) {
+  if (sex === 'male' && continent === 'northAmerica') {
     deadline = 77
   };
 
