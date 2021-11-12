@@ -9,6 +9,7 @@ describe ('calculate', () => {
   let jupiterAge = Math.floor(ageInDays / 4383);
 
 
+
   test ('should show me my age in days instead of years', () => {
     expect(ageInDays).toEqual(9490);
   });
@@ -24,4 +25,15 @@ describe ('calculate', () => {
     expect(jupiterAge).toEqual(2);
   });
 
+describe ('calculate', () => {
+  let sex = male;
+  let continent = northAmerica;
+  let deadline = 0;
+  if (sex === male && continent === northAmerica) {
+    deadline = 77
+  };
+
+  test ('should list deadline as 77', () => {
+    expect(deadline).toEqual(77);
+  });
 });
