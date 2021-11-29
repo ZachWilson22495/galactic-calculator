@@ -10,7 +10,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "Christopher Neal",
+  "author": "Zach Wilson",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
